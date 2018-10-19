@@ -45,7 +45,7 @@ int Board::huristic(){
         }
     }
     int temp=queens*2 -2;
-    for(int k=1;k<temp-1;k++){
+    for(int k=0;k<temp;k++){
         int count=0;
         for(int i=0;i<queens;i++){
             for(int j=0;j<queens;j++){
